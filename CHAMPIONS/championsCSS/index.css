@@ -367,6 +367,10 @@ span{
   left: 50px;
   bottom: 46px;
 }
+.exampleimg{
+  height: 470px;
+  opacity: .5;
+}
 .desc {
   color: white;
   font-weight: bold;
