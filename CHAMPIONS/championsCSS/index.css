@@ -362,6 +362,7 @@ span{
 }
 .largeimg{
   height: 470px;
+  padding-top: 5px;
   padding-left: 4px;
 }
 .desc {
