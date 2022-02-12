@@ -49,9 +49,9 @@ padding: 15px;
 
 .dropdown-content a {
   color: white;
-  padding-bottom: 17px;
-  padding-left: 12px;
-  padding-top: 6px;
+ padding-bottom: 17px;
+padding-left: 12px;
+padding-top: 6px;
   text-decoration: none;
   display: block;
 }
