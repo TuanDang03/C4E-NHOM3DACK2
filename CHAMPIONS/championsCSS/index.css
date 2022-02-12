@@ -148,7 +148,7 @@ margin-left: 1200px;
   padding-right: 180px;
   background: rgb(0, 255, 255);
   padding-top: 450px;
-  height:2750px;
+  height:2950px;
   }
 
 input:focus{
@@ -330,7 +330,7 @@ span{
   position: relative;
   left: 50px;
   height: 80px;
-  bottom: 37.5px;
+  bottom: 33.5px;
   margin-bottom: 20px;
   display: inline;
   margin-right: 15px;
@@ -365,7 +365,7 @@ span{
   height: 470px;
   position: relative;
   left: 50px;
-  bottom: 50px;
+  bottom: 46px;
 }
 .desc {
   color: white;
@@ -414,4 +414,5 @@ h6{
 .combo1{
   margin-top: 40px;
 }
+
 
