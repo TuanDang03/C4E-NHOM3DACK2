@@ -17,7 +17,7 @@
   color: white;
   background-color: #ea1e63;
   height: 60px;
-  width: 275px;
+  width: 18%;
 }
 .champions_search > li:hover {
   background-color: LightSkyBlue;
@@ -66,3 +66,4 @@ input:focus{
 .searchname:hover {
   color: rgba(255, 68, 0, 0.85);
 }
+
