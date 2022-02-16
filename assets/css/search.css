@@ -63,6 +63,7 @@ input:focus{
   padding-top: 20px;
   padding-left: 70px;
 }
+
 .searchname:hover {
   color: rgba(255, 68, 0, 0.85);
 }
