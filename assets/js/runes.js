@@ -14,19 +14,17 @@ if(params.type){
       <div class="dropdown-contentA">
       <a class="description">${item.description}</a>
       </div></div>
-      </div>`;
-
-      if(data_runes[params.type].includes(i)){
-        htmlData += `<div class="dropdownA">
-        <img class="largeimg" src="102&amp;ccb=1-5&amp;_nc_sid=aee45a&amp;_nc_ohc=-AtSPVUpE5AAX9sakrT&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&amp;oe=62268DD7" alt="">
-        </div>`;
+      </div>`
+    if(data_runes[params.type].includes(i)){
+       htmlData+= `<div class="dropdownA">
+       <img class="largeimg" src="102&amp;ccb=1-5&amp;_nc_sid=aee45a&amp;_nc_ohc=-AtSPVUpE5AAX9sakrT&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_ht=scontent.xx&amp;oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&amp;oe=62268DD7" alt="">
+       </div>`;
       }
       htmlData += html;
-      i++;
+      i++
     }
   }
 }else{
 }
-usersElement.innerHTML = htmlData;
-
+usersElement.innerHTML = htmlData
 
