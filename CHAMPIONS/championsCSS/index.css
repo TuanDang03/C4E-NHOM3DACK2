@@ -1,0 +1,197 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.background {
+  padding-left: 200px;
+  padding-right: 180px;
+  background: rgb(223, 219, 219);
+  padding-top: 450px;
+  height: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.toplaneicon {
+  height: 50px;
+  position: relative;
+  bottom: 300px;
+  left: 200px;
+}
+#champions {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+h1 {
+  position: relative;
+  color: Orange;
+  bottom: 200px;
+  border-style: solid;
+  border-top: rgb(0, 255, 255);
+  border-left: rgb(0, 255, 255);
+  border-right: rgb(0, 255, 255);
+  text-align: center;
+  padding-bottom: 10px;
+  border-width: 2px;
+  padding-right: 20px;
+}
+.championsava {
+  height: 120px;
+  border-radius: 100%;
+  border: 4px solid chocolate;
+  position: relative;
+  bottom: 150px;
+  left: 60px;
+}
+.typeicon {
+  height: 40px;
+  position: relative;
+  bottom: 200px;
+  left: 90px;
+}
+.laneicon {
+  height: 50px;
+}
+.laneclick {
+  position: relative;
+  left: 110px;
+  bottom: 200px;
+}
+.xx {
+  position: relative;
+  display: flex;
+  margin-bottom: 120px;
+}
+.xx > .images {
+  border: 4px solid chocolate;
+  position: relative;
+  background: red;
+  height: 80px;
+}
+.xx > .imageses {
+  height: 30px;
+  border: 4px solid chocolate;
+  background: red;
+  position: relative;
+  bottom: 30px;
+}
+.images:hover {
+  opacity: 0.6;
+  transition-duration: 0.5s;
+}
+.imageses:hover {
+  opacity: 0.6;
+  transition-duration: 0.5s;
+}
+.dropdownA {
+  position: relative;
+  display: inline-block;
+  height: 0px;
+  margin-bottom: 125px;
+  bottom: 50px;
+  left: 20px;
+  margin-left: 40px;
+  background-color: blue;
+}
+.dropdownA .xx .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: MediumSeaGreen;
+  border-radius: 5px;
+  min-width: 160px;
+  z-index: 1;
+  font-size: 17px;
+  padding: 15px;
+  width: 600%;
+  bottom: 90px;
+  font-weight: normal;
+}
+.dropdownA .xx .dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+.dropdownA:hover .dropdown-content {
+  display: block;
+}
+span {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 20px;
+  padding-left: 23px;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background: rgb(43, 255, 0);
+  position: relative;
+  left: 40px;
+  bottom: 85px;
+  border-radius: 5px;
+}
+.dropdown1 {
+  position: relative;
+  left: 50px;
+  height: 80px;
+  bottom: 33.5px;
+  margin-bottom: 20px;
+  display: inline;
+  margin-right: 15px;
+}
+.dropdown-contentB {
+  display: none;
+  position: absolute;
+  bottom: 80px;
+  z-index: 1;
+}
+.dropdown1:hover .dropdown-contentB {
+  display: block;
+}
+h4 {
+  color: white;
+  position: relative;
+  bottom: 70px;
+  border: 1px solid yellow;
+  background-color: rgb(202, 202, 89);
+  margin-right: 500px;
+  margin-left: 40px;
+  padding-left: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 21px;
+  border-radius: 10px;
+}
+h5 {
+  color: white;
+  position: relative;
+  top: 46px;
+  right: 30px;
+  font-size: 26px;
+  width: 0px;
+  display: inline-flex;
+  z-index: 1;
+}
+h6 {
+  color: white;
+  position: relative;
+  bottom: 60px;
+  left: 40px;
+  font-size: 21px;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: DodgerBlue;
+  padding-top: 7px;
+  border-radius: 6px;
+}
+.combo1 {
+  margin-top: 40px;
+}
