@@ -1,0 +1,102 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.background {
+  background: rgb(223, 219, 219);
+  padding-top: 7%;
+  height: 100%;
+}
+.dropdownRunes {
+  margin-top: 280px;
+  margin-left: 17%;
+  width: 400px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.dropdownRunes > a > img {
+  height: 95px;
+  padding: 4px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 120px;
+}
+.dropdownRunes > a > img:hover {
+  background-color: khaki;
+  border-radius: 100%;
+}
+.runes {
+  position: relative;
+  margin-left: 24%;
+  margin-right: 39%;
+}
+
+.dropdownA {
+  position: relative;
+  display: inline-flex;
+}
+.dropdownA > img {
+  height: 90px;
+  margin: 20px;
+}
+.dropdownA > img:hover {
+  opacity: 0.6;
+  transition-duration: 0.5s;
+}
+.dropdownA .xx .dropdown-contentA {
+  display: none;
+  position: absolute;
+  background-color: MediumSeaGreen;
+  border-radius: 5px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 17px;
+  padding: 15px;
+  width: 480%;
+  bottom: 120px;
+  font-weight: normal;
+}
+.dropdownA .xx .dropdown-contentA a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+.dropdownA:hover .dropdown-contentA {
+  display: block;
+}
+h1 {
+  position: relative;
+  color: Orange;
+  top: 150px;
+  border-style: solid;
+  border-top: rgb(223, 219, 219);
+  border-left: rgb(223, 219, 219);
+  border-right: rgb(223, 219, 219);
+  text-align: center;
+  padding-bottom: 10px;
+  border-width: 2px;
+  width: 60%;
+  margin-left: 18.5%;
+}
+.mystyle {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+.footerLOGORUNES{
+  position: relative;
+  padding-top: 9%;
+  padding-bottom: 6%;
+  margin-left: 38.5%;
+}
+a{
+  text-decoration: none;
+}
+
